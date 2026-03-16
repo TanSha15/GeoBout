@@ -1,6 +1,6 @@
 # World Explorer — React Country App
 
-**Live Demo:** [[Click here](https://geobout.netlify.app/)]()
+**Live Demo:** [[Click here](https://geobout.netlify.app/)]
 
 A modern, responsive web application built with React that lets users explore countries around the world — search, filter by region, view detailed country information, and discover fascinating facts from every corner of the globe.
 
