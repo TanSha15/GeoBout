@@ -1,0 +1,137 @@
+/* HERO SECTION */
+.HeroSection {
+  min-height: calc(100vh - 70px);
+  background: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+  gap: 40px;
+}
+
+/* TEXT CONTENT */
+.HeroContent {
+  flex: 1;
+  color: white;
+}
+
+.HeroContent h1 {
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+}
+
+.HeroContent p {
+  color: #bdbdbd;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.HeroSection {
+  padding-top: 40px;  /* space so content doesn’t fight navbar */
+}
+
+
+/* BUTTON */
+.hero-btn {
+  background: #ffffff;
+  color: #121212;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-2px);
+  background: #e6e6e6;
+}
+
+
+.HeroContent button {
+  background: #ffffff;
+  color: #121212;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+
+.HeroContent button:hover {
+  transform: translateY(-2px);
+  background: #e6e6e6;
+}
+
+.hero-btn {
+  background: #ffffff;
+  color: #121212;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-2px);
+  background: #e6e6e6;
+}
+
+
+/* IMAGE */
+.HeroImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.HeroImage img {
+  max-width: 100%;
+  height: auto;
+  width: 420px;
+  filter: drop-shadow(0 5px 10px rgba(0,0,0,0.6));
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .HeroSection {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .HeroContent {
+    order: 2;
+  }
+
+  .HeroImage {
+    order: 1;
+  }
+
+  .HeroContent p {
+    margin: 0 auto 30px;
+  }
+
+  .HeroContent button {
+    margin: 0 auto;
+  }
+}

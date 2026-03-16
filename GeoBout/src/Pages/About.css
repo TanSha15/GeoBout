@@ -1,0 +1,64 @@
+.aboutHeading {
+  text-align: center;
+  padding: 50px 20px 20px;
+  background: #121212;
+}
+
+.aboutHeading h1 {
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+/* Cards Layout */
+.cardsContainer {
+  background: #121212;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 40px 8%;
+}
+
+/* Single Card */
+.SingleCardContainer {
+  background: #1e1e1e;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+  transition: 0.3s ease;
+}
+
+.SingleCardContainer:hover {
+  transform: translateY(-6px);
+}
+
+/* Country Name */
+.SingleCardContainer h2 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.SingleCardContainer p {
+  color: #bcbcbc;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Labels */
+.label {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.countryName {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #ffffff;
+  background: #1e293b;
+  padding: 8px 12px;
+  border-left: 4px solid #3c3a5d;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+

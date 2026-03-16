@@ -1,0 +1,73 @@
+.countryList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* CARD */
+.countryCard {
+  background: #2b2b2b; /* SAME AS PAGE THEME */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+  color: #e5e5e5;
+}
+
+.countryCard:hover {
+  transform: translateY(-8px);
+}
+
+/* IMAGE */
+.countryCardImage img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.countryCardContent {
+  padding: 1rem 1.2rem;
+}
+
+/* TITLE */
+.countryTitle {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #ffffff;
+}
+
+/* LABELS */
+.countryCardContent span {
+  font-weight: 600;
+  color: #b0b0b0;
+}
+
+/* BUTTON STYLE */
+.countryCardContent button {
+  margin-top: 12px;
+  background: linear-gradient(135deg, #444, #1f1f1f);
+  color: #ffffff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.4px;
+}
+
+/* HOVER EFFECT */
+.countryCardContent button:hover {
+  background: linear-gradient(135deg, #5a5a5a, #2e2e2e);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+/* REMOVE LINK UNDERLINE */
+.countryCardContent a {
+  text-decoration: none;
+}
+

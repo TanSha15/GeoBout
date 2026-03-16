@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Japan",
+    "capital": "Tokyo",
+    "population": 125800000,
+    "interesting_fact": "Japan is home to the world’s busiest pedestrian crossing, the Shibuya Crossing."
+  },
+  {
+    "id": 2,
+    "name": "Canada",
+    "capital": "Ottawa",
+    "population": 40000000,
+    "interesting_fact": "Canada has the longest coastline of any country in the world."
+  },
+  {
+    "id": 3,
+    "name": "Brazil",
+    "capital": "Brasília",
+    "population": 215000000,
+    "interesting_fact": "Brazil is the only country in South America where Portuguese is the official language."
+  },
+  {
+    "id": 4,
+    "name": "Australia",
+    "capital": "Canberra",
+    "population": 26000000,
+    "interesting_fact": "Australia is home to more kangaroos than people."
+  },
+  {
+    "id": 5,
+    "name": "Egypt",
+    "capital": "Cairo",
+    "population": 112000000,
+    "interesting_fact": "Egypt’s pyramids are the only remaining Ancient World Wonders."
+  },
+  {
+    "id": 6,
+    "name": "Germany",
+    "capital": "Berlin",
+    "population": 84000000,
+    "interesting_fact": "Germany is home to over 25,000 castles."
+  },
+  {
+    "id": 7,
+    "name": "India",
+    "capital": "New Delhi",
+    "population": 1420000000,
+    "interesting_fact": "India is the world’s largest democracy."
+  },
+  {
+    "id": 8,
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "population": 129000000,
+    "interesting_fact": "Mexico introduced chocolate to the world through the ancient Aztecs."
+  },
+  {
+    "id": 9,
+    "name": "South Africa",
+    "capital": "Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)",
+    "population": 61000000,
+    "interesting_fact": "South Africa has three official capital cities."
+  }
+]
